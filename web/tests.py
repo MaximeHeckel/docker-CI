@@ -5,8 +5,7 @@ class MainTestCase(unittest.TestCase):
 
     def test_two_and_two(self):
         four = 2 + 2
-        self.assertNotEqual(four, 5)
-
+        self.assertNotEqual(four, 6)
 
 if __name__ == '__main__':
     unittest.main()
